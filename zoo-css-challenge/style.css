@@ -193,3 +193,69 @@ footer {
 .programs .card {
   display: block;
 }
+
+
+
+#logo{
+  border:none;
+}
+
+.introduction {
+  background-color: white;
+}
+*{
+  letter-spacing: 0.05em;
+  word-spacing:0.25em;
+}
+
+
+#img1{
+  border-color: teal;
+  vertical-align: top;
+
+}
+#img2{
+  border-color: tomato;
+  vertical-align: top;
+
+}
+#img3{
+  border-color: turquoise;
+  vertical-align: top;
+
+}
+.tigers{
+  background-color: #527b86;
+}
+
+.giraffe{
+  background-color: #483C46;
+}
+.giraffe h2{
+  color:  #F4743B;
+}
+.giraffe p{
+  color: #BEEE62;
+}
+#larger{
+  font-size:large;
+}
+.news h4{
+  text-align: center;  
+}
+
+.education button{
+  font-size: larger;
+}
+.education button:hover , .education button:focus{
+  color:cyan;
+  background-color: darkblue;
+}
+.education-container{
+  border-style: hidden;
+  border-radius: 15%;
+}
+.membership{
+  width: 700px;
+  margin: auto;
+}
