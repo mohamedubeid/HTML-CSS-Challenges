@@ -85,7 +85,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -94,8 +94,10 @@ footer {
   flex-direction: column;
 }
 
+
 #badge:hover {
-  background-color: yellow;
+  background-color: rgb(8, 8, 8);
+  color: #fff;
 }
 
 #badge p {
@@ -116,7 +118,9 @@ footer {
   background-color: #0b3c49;
   color: #f0e100;
 }
-
+.lion img{
+  width: 100%;
+}
 .giraffe {
   background-color: #465775;
   color: #56e39f;
@@ -124,6 +128,9 @@ footer {
 
 .giraffe h2 {
   color: #ef6f6c;
+}
+.cards{
+  display: flex;
 }
 
 .card {
